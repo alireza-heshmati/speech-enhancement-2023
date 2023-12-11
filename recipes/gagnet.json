@@ -1,0 +1,22 @@
+{
+    "name": "gagnet",
+    "cin":2,
+    "k1": [2, 3],
+    "k2": [1, 3],
+    "c":64,
+    "kd1":3,
+    "cd1":64,
+    "d_feat":320,
+    "p":2,
+    "q":3,
+    "dilas":[1,2,5,9],
+    "fft_num":400,
+    "is_u2": true,
+    "is_causal":true,
+    "is_squeezed":false,
+    "acti_type":"sigmoid",
+    "intra_connect":"cat",
+    "norm_type":"IN",
+    "save_path_rev": "./checkpoints/GAGNet_main_rev.pt",
+    "save_path_pip": "./checkpoints/GAGNet_main_pip.pt"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "training",
+    "STEP_SHOW" : 3000,
+    "NUM_EPOCH" : 30,
+    "GRAD_STEP" : 4,
+    "LEARNING_RATE": 0.0001,
+    "IS_PIPELINE": false
+}
